@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Якутский музей</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+  <style href="/style.css">
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      border: 0;
+      max-width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    .montserrat {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .fsz-small {
+      font-size: clamp(8px, 1.2vw, 16px);
+      color: white;
+    }
+
+    .fsz-medium {
+      font-size: clamp(12px, 1.8vw, 24px);
+      color: white;
+    }
+
+    .fsz-big {
+      font-size: clamp(16px, 2.4vw, 36px);
+      color: white;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+      height: 100px;
+      background-color: #234082;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .btn-1 {
+      display: flex;
+      gap: 36px;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      min-height: 100%;
+      background-size: cover;
+    }
+
+    .next_button {
+      display: flex;
+      gap: 40px;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+    }
+
+    .btn-2 {
+      color: black;
+      background-color: white;
+      border-radius: 30px;
+      padding: 18px 63px;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-items: center;
+      height: 106px;
+      background-color: #234082;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="logo-group">
+        <img src="/image/logo.svg" alt="logo"></img>
+        <p class="fsz-small subtitle montserrat">Республиканский музей <br> истории государственности <br> РС(Я) им. М.
+          К.
+          Аммосова
+        </p>
+      </div>
+      <div class="btn-1">
+        <p class="fsz-medium montserrat">Виртуальный тур</p>
+        <a href="#" class="fsz-medium montserrat">О музее</a>
+      </div>
+    </div>
+  </div>
+  <div class="main" style="background-image: url(file:///C:/Users/4/Profession%20IT%20-%202025/image/Frame%205.png);">
+    <div class="next_button">
+      <h1 class="fsz-big montserrat">Виртуальный тур по Республиканскому <br>музею истории государственности РС(Я) <br>
+        имени
+        Максима
+        Кировича Аммосова</h1>
+      <a class="btn-2 fsz-big montserrat" href="/html/main.html">Перейти</a>
+    </div>
+    <div class="2gis" style="height: 17vw; width: 40vw; margin-bottom: 4vw;">
+      <a class="dg-widget-link"
+        href="http://2gis.ru/yakutsk/firm/70000001040597823/center/129.5333576202393,63.00001990159573/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+        на карте Якутска</a>
+      <div class="dg-widget-link"><a
+          href="http://2gis.ru/yakutsk/firm/70000001040597823/photos/70000001040597823/center/129.5333576202393,63.00001990159573/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+          компании</a></div>
+      <div class="dg-widget-link"><a
+          href="http://2gis.ru/yakutsk/center/129.533359,62.999832/zoom/16/routeTab/rsType/bus/to/129.533359,62.999832╎Республиканский музей истории государственности республики Саха (Якутия) им. М.К. Аммосова?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+          проезд до Республиканский музей истории государственности республики Саха (Якутия) им. М.К. Аммосова</a></div>
+      <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+      <script
+        charset="utf-8">new DGWidgetLoader({ "width": "100%", "height": "100%", "borderColor": "#a3a3a3", "pos": { "lat": 63.00001990159573, "lon": 129.5333576202393, "zoom": 10 }, "opt": { "city": "yakutsk" }, "org": [{ "id": "70000001040597823" }] });</script>
+      <noscript style="color:#c00;font-size: clamp(8px, 1.2vw, 16px);font-weight:bold;">Виджет карты использует
+        JavaScript. Включите его в
+        настройках вашего браузера.</noscript>
+    </div>
+  </div>
+  <div class="footer">
+    <h2 class="fsz-small montserrat" style="width: 20vw;">Республиканский музей истории государственности РС(Я) им.
+      М. К. Аммосова</h2>
+    <h2 class="fsz-small montserrat" style="text-align: right; width: 22vw;">© 2025 Республиканский музей истории
+      государственности РС(Я) им. М. К. Аммосова. <br>
+      Все права защищены </h2>
+  </div>
+</body>
+
+</html>
