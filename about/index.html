@@ -1,1 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Якутский музей истории</title>
+  <style>
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      border: 0;
+      max-width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    .montserrat {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .fsz-small {
+      font-size: clamp(8px, 1.2vw, 16px);
+      color: white;
+    }
+
+    .fsz-medium {
+      font-size: clamp(12px, 1.8vw, 24px);
+      color: black;
+    }
+
+    .fsz-big {
+      font-size: clamp(16px, 2.4vw, 36px);
+      color: white;
+      font-weight: bold;
+    }
+
+    .header-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+      height: 100px;
+      background-color: #234082;
+    }
+
+    .logo-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-1 {
+      display: flex;
+      gap: 36px;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 1160px;
+      padding: 100px 40px;
+    }
+
+    .main-head {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 60px;
+      flex-direction: column;
+      margin-top: 16px;
+    }
+
+    .main-head-container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .srednee {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: #234082;
+      margin-top: 13px;
+    }
+
+    .srednee-2 {
+      text-align: end;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-items: center;
+      height: 106px;
+      background-color: #234082;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="/image/logo.svg" alt="logo" style="max-width: 9%;"></img>
+        <p class="fsz-small subtitle montserrat">Республиканский музей <br> истории государственности <br> РС(Я) им. М.
+          К.
+          Аммосова
+        </p>
+      </div>
+      <div class="btn-1">
+        <a href="/tour" class="fsz-medium montserrat" style="color: white;">Виртуальный тур</a>
+        <p class="fsz-medium montserrat" style="color: white;">О музее</p>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <h1 class="fsz-medium montserrat">Республиканский музей истории <br>государственности РС(Я) им. М. К. Аммосова
+      </h1>
+      <div class="main-head">
+        <div class="main-head-container">
+          <img src="/image/image_1.png" alt="photo_1" style="min-width: 30%;">
+          <p class="montserrat fsz-medium">22 декабря 1962 года при Хатырыкской средней школе Намского района в день
+            рождения М. К. Аммосова был открыт школьный музей. <br>
+            <br>
+            В 1964 г. постановлением бюро РК КПСС и райсовета Намского района официально открылся мемориальный музей
+            имени
+            М. К. Аммосова. В 1965 г. Р. И. Цугель-Аммосова передала личные вещи и книги Максима Кировича Аммосова в дар
+            музею. В 1971 г. сельчане построили специальное здание для музея. С 1976 г. историко-революционный музей им.
+            М. К. Аммосова взят на учет и паспортизирован как музей на общественных началах.
+          </p>
+        </div>
+        <div class="main-head-container">
+          <p class="montserrat fsz-medium">
+            В 1996 г. началось строительство нового здания для музея в связи со 100-летием М. К. Аммосова. Торжественное
+            открытие каменного здания музея состоялось 21 декабря 1997 года. Указом Президента РС (Я) Штырова В. А. №216
+            от 27 апреля 2002 года музей преобразован в государственное учреждение «Республиканский музей истории
+            государственности РС (Я) им. М. К. Аммосова». В 2005 г. музей стал филиалом Якутского государственного
+            объединенного музея истории и культуры народов Севера им. Ем. Ярославского.
+          </p>
+          <img src="/image/image_2.png" alt="photo_2" style="min-width: 30%;">
+        </div>
+      </div>
+      <div class="main-srednee">
+        <div class="container">
+          <h1 class="montserrat" style="font-size: 40px; font-weight: bold;color:#234082;">РЕЖИМ РАБОТЫ</h1>
+          <div class="srednee">
+            <div class="srednee-1">
+              <h2 class="montserrat fsz-big" style="color: black; font-weight: 500;">
+                Вторник - Воскресенье
+              </h2>
+              <h3 class="montserrat" style="font-size: clamp(35px, 6vw, 64px);">10:00 - 17:00</h3>
+            </div>
+            <div class="srednee-2">
+              <h2 class="montserrat fsz-big" style="color: black; font-weight: 500;">
+                Понедельник
+              </h2>
+              <h3 class="montserrat" style="font-size: clamp(35px, 6vw, 64px);">Выходной</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div class="container"
+          style="display: grid; grid-template-columns: repeat(2, 1fr); margin: 0; font-weight: 700;">
+          <div class="foot" style="display: flex; flex-direction: column; gap: 33px; justify-content: center;">
+            <div class="block-1">
+              <p class="montserrat" style="font-size: 40px; color: #234082; font-weight: 700;">Адрес</p>
+              <h3 class="montserrat fsz-medium" style="font-weight: 500;">678385, Намский улус, Хатырыкский наслег, <br>
+                с. Столбы, ул. М. К.
+                Аммосова, 21.</h3>
+            </div>
+            <div class="block-2">
+              <p class="montserrat" style="font-size: 32px; color: #234082; font-weight: 700;">Контакты</p>
+              <h3 class="fsz-medium montserrat" style="font-weight: 500;">Телефон: <a href="tel:+7 (41162) 27-133">+7
+                  (41162) 27-133</a> <br>
+                Эл. почта: <a href="emailto:museum.ammosova.62@mail.ru">museum.ammosova.62@mail.ru</a></h3>
+            </div>
+          </div>
+          <div class="twogis" style="aspect-ratio: 1.5;">
+            <a class="dg-widget-link"
+              href="http://2gis.ru/yakutsk/firm/70000001040597823/center/129.5333576202393,63.00001990159573/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+              на карте Якутска</a>
+            <div class="dg-widget-link"><a
+                href="http://2gis.ru/yakutsk/firm/70000001040597823/photos/70000001040597823/center/129.5333576202393,63.00001990159573/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                компании</a></div>
+            <div class="dg-widget-link"><a
+                href="http://2gis.ru/yakutsk/center/129.533359,62.999832/zoom/16/routeTab/rsType/bus/to/129.533359,62.999832╎Республиканский музей истории государственности республики Саха (Якутия) им. М.К. Аммосова?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                проезд до Республиканский музей истории государственности республики Саха (Якутия) им. М.К. Аммосова</a>
+            </div>
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <script
+              charset="utf-8">new DGWidgetLoader({ "width": "100%", "height": "100%", "borderColor": "#a3a3a3", "pos": { "lat": 63.00001990159573, "lon": 129.5333576202393, "zoom": 16 }, "opt": { "city": "yakutsk" }, "org": [{ "id": "70000001040597823" }] });</script>
+            <noscript style="color:#c00;font-size: clamp(8px, 1.2vw, 16px);font-weight:bold;">Виджет карты использует
+              JavaScript. Включите его в
+              настройках вашего браузера.</noscript>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h2 class="fsz-small montserrat" style="width: 20vw;">Республиканский музей истории государственности РС(Я) им.
+      М. К. Аммосова</h2>
+    <h2 class="fsz-small montserrat" style="text-align: right; width: 22vw;">© 2025 Республиканский музей истории
+      государственности РС(Я) им. М. К. Аммосова. <br>
+      Все права защищены </h2>
+  </div>
+</body>
+
+</html>
